@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://interactive-rating-component-beryl.vercel.app/)
+- Live Site URL: (https://interactive-rating-component-beryl.vercel.app/
 
 ## My process
 
