@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Interactive rating component</title>
+</head>
+<body>
+
+  <!-- Rating state start -->
+  <div class="main__container">
+    <div class="rating__container">
+      <img src="images/icon-star.svg" alt="rating"/>
+      <h2 class="rating__header">How did we do?</h2>
+      <p class="rating__text">
+        Please let us know how we did with your support request. All feedback is
+        appreciated to help us improve our offering!
+      </p>
+    
+      <ul class="rating__btns">
+        <li><button class="rating__btn">1</button></li>
+        <li><button class="rating__btn">2</button></li>
+        <li><button class="rating__btn">3</button></li>
+        <li><button class="rating__btn">4</button></li>
+        <li><button class="rating__btn">5</button></li>
+      </ul>
+
+      <button class="rating__submit" id="submitBtn">Submit</button>
+    </div>
+
+  <!-- Rating state end -->
+
+  <!-- Thank you state start -->
+  <div class="thankyou__container hidden">
+    <div class="thankyou__image">
+      <img src="images/illustration-thank-you.svg" alt="thankyou"/>
+    </div>
+    <p class="rating__selected">You selected <span id="selected__rating">1</span> out of 5</p>
+    <h2 class="rating__header">Thank you!</h2>
+    <p class="thankyou__text"> 
+      We appreciate you taking the time to give a rating. If you ever need more support, 
+      don’t hesitate to get in touch!</p>   
+    <button class="rating__submit" id="rate__again">Rate Again</button>
+  </div>
+  <div class="attribution">
+    Challenge by
+    <a
+      href="https://www.frontendmentor.io?ref=challenge"
+      target="_blank"
+      rel="noreferrer"
+      >Frontend Mentor</a
+    >. Coded by
+    <a href="https://github.com/Kaushik612" target="_blank" rel="noreferrer"
+      >Kaushik Ravikumar</a
+    >.
+  </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
